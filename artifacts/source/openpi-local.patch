@@ -1,0 +1,160 @@
+diff --git a/src/openpi/training/config.py b/src/openpi/training/config.py
+index 4ca47e1..4bf267e 100644
+--- a/src/openpi/training/config.py
++++ b/src/openpi/training/config.py
+@@ -20,6 +20,7 @@ import openpi.models.tokenizer as _tokenizer
+ import openpi.policies.aloha_policy as aloha_policy
+ import openpi.policies.droid_policy as droid_policy
+ import openpi.policies.libero_policy as libero_policy
++import openpi.policies.panda_policy as panda_policy
+ import openpi.shared.download as _download
+ import openpi.shared.normalize as _normalize
+ import openpi.training.droid_rlds_dataset as droid_rlds_dataset
+@@ -355,6 +356,38 @@ class LeRobotLiberoDataConfig(DataConfigFactory):
+         )
+ 
+ 
++@dataclasses.dataclass(frozen=True)
++class LeRobotPandaDataConfig(DataConfigFactory):
++    action_sequence_keys: Sequence[str] = ("action",)
++
++    @override
++    def create(self, assets_dirs: pathlib.Path, model_config: _model.BaseModelConfig) -> DataConfig:
++        repack_transform = _transforms.Group(
++            inputs=[
++                _transforms.RepackTransform(
++                    {
++                        "observation/image": "observation.images.image",
++                        "observation/wrist_image": "observation.images.wrist_image",
++                        "observation/state": "observation.state",
++                        "actions": "action",
++                        "prompt": "prompt",
++                    }
++                )
++            ]
++        )
++        data_transforms = _transforms.Group(
++            inputs=[panda_policy.PandaInputs(model_type=model_config.model_type)],
++            outputs=[panda_policy.PandaOutputs()],
++        )
++        return dataclasses.replace(
++            self.create_base_config(assets_dirs, model_config),
++            repack_transforms=repack_transform,
++            data_transforms=data_transforms,
++            model_transforms=ModelTransformFactory()(model_config),
++            action_sequence_keys=self.action_sequence_keys,
++        )
++
++
+ @dataclasses.dataclass(frozen=True)
+ class RLDSDroidDataConfig(DataConfigFactory):
+     """
+@@ -558,6 +591,108 @@ class TrainConfig:
+ 
+ # Use `get_config` if you need to get a config by name in your code.
+ _CONFIGS = [
++    TrainConfig(
++        name="pi05_panda_h50_overfit_1ep",
++        model=pi0_config.Pi0Config(
++            pi05=True,
++            action_horizon=50,
++            max_token_len=64,
++            paligemma_variant="gemma_2b_lora",
++            action_expert_variant="gemma_300m_lora",
++        ),
++        data=LeRobotPandaDataConfig(
++            repo_id="local/panda_overfit_1ep",
++            base_config=DataConfig(prompt_from_task=True),
++        ),
++        weight_loader=weight_loaders.CheckpointWeightLoader(
++            "gs://openpi-assets/checkpoints/pi05_base/params"
++        ),
++        freeze_filter=pi0_config.Pi0Config(
++            pi05=True,
++            action_horizon=50,
++            max_token_len=64,
++            paligemma_variant="gemma_2b_lora",
++            action_expert_variant="gemma_300m_lora",
++        ).get_freeze_filter(),
++        ema_decay=None,
++        batch_size=1,
++        num_train_steps=5000,
++        log_interval=100,
++        save_interval=5000,
++        keep_period=5000,
++        num_workers=2,
++        wandb_enabled=False,
++        assets_base_dir="/root/shared-nvme/openpi-assets",
++        checkpoint_base_dir="/root/shared-nvme/checkpoints",
++    ),
++    TrainConfig(
++        name="pi05_panda_h50_batch2_probe",
++        model=pi0_config.Pi0Config(
++            pi05=True,
++            action_horizon=50,
++            max_token_len=64,
++            paligemma_variant="gemma_2b_lora",
++            action_expert_variant="gemma_300m_lora",
++        ),
++        data=LeRobotPandaDataConfig(
++            repo_id="local/panda_multi_object_box_v2_train_compat",
++            base_config=DataConfig(prompt_from_task=True),
++        ),
++        weight_loader=weight_loaders.CheckpointWeightLoader(
++            "gs://openpi-assets/checkpoints/pi05_base/params"
++        ),
++        freeze_filter=pi0_config.Pi0Config(
++            pi05=True,
++            action_horizon=50,
++            max_token_len=64,
++            paligemma_variant="gemma_2b_lora",
++            action_expert_variant="gemma_300m_lora",
++        ).get_freeze_filter(),
++        ema_decay=None,
++        batch_size=2,
++        num_train_steps=100,
++        log_interval=10,
++        save_interval=100,
++        keep_period=None,
++        num_workers=2,
++        wandb_enabled=False,
++        assets_base_dir="/root/shared-nvme/openpi-assets",
++        checkpoint_base_dir="/root/shared-nvme/checkpoints",
++    ),
++    TrainConfig(
++        name="pi05_panda_h50_formal",
++        model=pi0_config.Pi0Config(
++            pi05=True,
++            action_horizon=50,
++            max_token_len=64,
++            paligemma_variant="gemma_2b_lora",
++            action_expert_variant="gemma_300m_lora",
++        ),
++        data=LeRobotPandaDataConfig(
++            repo_id="local/panda_multi_object_box_v2_train_compat",
++            base_config=DataConfig(prompt_from_task=True),
++        ),
++        weight_loader=weight_loaders.CheckpointWeightLoader(
++            "gs://openpi-assets/checkpoints/pi05_base/params"
++        ),
++        freeze_filter=pi0_config.Pi0Config(
++            pi05=True,
++            action_horizon=50,
++            max_token_len=64,
++            paligemma_variant="gemma_2b_lora",
++            action_expert_variant="gemma_300m_lora",
++        ).get_freeze_filter(),
++        ema_decay=None,
++        batch_size=1,
++        num_train_steps=150000,
++        log_interval=10,
++        save_interval=10000,
++        keep_period=50000,
++        num_workers=2,
++        wandb_enabled=False,
++        assets_base_dir="/root/shared-nvme/openpi-assets",
++        checkpoint_base_dir="/root/shared-nvme/checkpoints",
++    ),
+     #
+     # Inference Aloha configs.
+     #

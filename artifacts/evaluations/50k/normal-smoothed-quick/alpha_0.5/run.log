@@ -1,0 +1,183 @@
+2026-09-12 15:26:07.150681: W external/xla/xla/stream_executor/cuda/subprocess_compilation.cc:237] Falling back to the CUDA driver for PTX compilation; ptxas does not support CC 12.0
+2026-09-12 15:26:07.150695: W external/xla/xla/stream_executor/cuda/subprocess_compilation.cc:240] Used ptxas at /usr/local/cuda/bin/ptxas
+2026-09-12 15:26:07.150758: W external/xla/xla/stream_executor/gpu/redzone_allocator_kernel_cuda.cc:135] UNIMPLEMENTED: /usr/local/cuda/bin/ptxas ptxas too old. Falling back to the driver to compile.
+Relying on driver to perform ptx compilation. 
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+{"episode": 0, "seed": 50000, "target_type": "apple", "recovery_type": "none", "success": false, "steps": 100, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 236.53053415939212, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_000.mp4"}
+{"episode": 1, "seed": 50004, "target_type": "apple", "recovery_type": "none", "success": true, "steps": 41, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.342723864971138, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_001.mp4"}
+{"episode": 2, "seed": 50008, "target_type": "apple", "recovery_type": "none", "success": true, "steps": 55, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.0235540067607705, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_002.mp4"}
+{"episode": 3, "seed": 50003, "target_type": "box", "recovery_type": "none", "success": true, "steps": 31, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.004884270891067, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_003.mp4"}
+{"episode": 4, "seed": 50007, "target_type": "box", "recovery_type": "none", "success": true, "steps": 31, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.031422998636, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_004.mp4"}
+{"episode": 5, "seed": 50011, "target_type": "box", "recovery_type": "none", "success": true, "steps": 27, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.105073158387785, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_005.mp4"}
+{"episode": 6, "seed": 50002, "target_type": "can", "recovery_type": "none", "success": true, "steps": 27, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.083053726289007, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_006.mp4"}
+{"episode": 7, "seed": 50006, "target_type": "can", "recovery_type": "none", "success": true, "steps": 22, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.749665544791655, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_007.mp4"}
+{"episode": 8, "seed": 50010, "target_type": "can", "recovery_type": "none", "success": true, "steps": 23, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.086797085145245, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_008.mp4"}
+{"episode": 9, "seed": 50001, "target_type": "orange", "recovery_type": "none", "success": true, "steps": 27, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.075085192366883, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_009.mp4"}
+{"episode": 10, "seed": 50005, "target_type": "orange", "recovery_type": "none", "success": true, "steps": 37, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.153986939707318, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_010.mp4"}
+{"episode": 11, "seed": 50009, "target_type": "orange", "recovery_type": "none", "success": false, "steps": 100, "execute_actions": 10, "smooth_alpha": 0.5, "post_success_cycles": 5, "mean_infer_ms": 4.1018108651041985, "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_011.mp4"}
+{
+  "config": "pi05_panda_h50_formal",
+  "checkpoint": "/root/shared-nvme/checkpoints/pi05_panda_h50_formal/panda_h50_formal_v1/50000",
+  "episodes": 12,
+  "successes": 10,
+  "success_rate": 0.8333333333333334,
+  "results": [
+    {
+      "episode": 0,
+      "seed": 50000,
+      "target_type": "apple",
+      "recovery_type": "none",
+      "success": false,
+      "steps": 100,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 236.53053415939212,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_000.mp4"
+    },
+    {
+      "episode": 1,
+      "seed": 50004,
+      "target_type": "apple",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 41,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.342723864971138,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_001.mp4"
+    },
+    {
+      "episode": 2,
+      "seed": 50008,
+      "target_type": "apple",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 55,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.0235540067607705,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_002.mp4"
+    },
+    {
+      "episode": 3,
+      "seed": 50003,
+      "target_type": "box",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 31,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.004884270891067,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_003.mp4"
+    },
+    {
+      "episode": 4,
+      "seed": 50007,
+      "target_type": "box",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 31,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.031422998636,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_004.mp4"
+    },
+    {
+      "episode": 5,
+      "seed": 50011,
+      "target_type": "box",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 27,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.105073158387785,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_005.mp4"
+    },
+    {
+      "episode": 6,
+      "seed": 50002,
+      "target_type": "can",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 27,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.083053726289007,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_006.mp4"
+    },
+    {
+      "episode": 7,
+      "seed": 50006,
+      "target_type": "can",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 22,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.749665544791655,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_007.mp4"
+    },
+    {
+      "episode": 8,
+      "seed": 50010,
+      "target_type": "can",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 23,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.086797085145245,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_008.mp4"
+    },
+    {
+      "episode": 9,
+      "seed": 50001,
+      "target_type": "orange",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 27,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.075085192366883,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_009.mp4"
+    },
+    {
+      "episode": 10,
+      "seed": 50005,
+      "target_type": "orange",
+      "recovery_type": "none",
+      "success": true,
+      "steps": 37,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.153986939707318,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_010.mp4"
+    },
+    {
+      "episode": 11,
+      "seed": 50009,
+      "target_type": "orange",
+      "recovery_type": "none",
+      "success": false,
+      "steps": 100,
+      "execute_actions": 10,
+      "smooth_alpha": 0.5,
+      "post_success_cycles": 5,
+      "mean_infer_ms": 4.1018108651041985,
+      "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.5/episode_011.mp4"
+    }
+  ]
+}

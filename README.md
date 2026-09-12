@@ -89,6 +89,9 @@ python scripts/run_mujoco_policy_eval_receding.py \
 - [本地实现与验证说明](./本地实现与验证说明.md)
 - [数据集校验报告](./reports/dataset_validation.md)
 - [实验 artifacts 说明](./artifacts/README.md)
+- [50k/100k 完整评测 JSON](./artifacts/evaluations/README.md)
+- [13 组 50k/100k 配对视频](./artifacts/videos/checkpoint-comparison/README.md)
+- [50k 恢复训练日志](./artifacts/logs/panda_h50_formal_v1_resume_50k_to_102k.log)
 
 ## 不包含的文件
 

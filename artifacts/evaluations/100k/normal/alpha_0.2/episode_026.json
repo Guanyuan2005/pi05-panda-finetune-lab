@@ -1,0 +1,13 @@
+{
+  "episode": 26,
+  "seed": 50026,
+  "target_type": "can",
+  "recovery_type": "none",
+  "success": true,
+  "steps": 36,
+  "execute_actions": 10,
+  "smooth_alpha": 0.2,
+  "post_success_cycles": 5,
+  "mean_infer_ms": 4.91111378909813,
+  "video": "/root/shared-nvme/logs/h50_formal_100k_matrix/normal/alpha_0.2/episode_026.mp4"
+}

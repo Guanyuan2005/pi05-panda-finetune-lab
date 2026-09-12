@@ -1,0 +1,13 @@
+{
+  "episode": 2,
+  "seed": 50008,
+  "target_type": "apple",
+  "recovery_type": "none",
+  "success": true,
+  "steps": 60,
+  "execute_actions": 10,
+  "smooth_alpha": 0.2,
+  "post_success_cycles": 5,
+  "mean_infer_ms": 4.155334240446488,
+  "video": "/root/shared-nvme/logs/h50_formal_50k_quick_matrix/alpha_0.2/episode_002.mp4"
+}

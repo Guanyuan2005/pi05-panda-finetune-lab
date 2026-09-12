@@ -1,0 +1,13 @@
+{
+  "episode": 25,
+  "seed": 50073,
+  "target_type": "orange",
+  "recovery_type": "place_offset",
+  "success": true,
+  "steps": 36,
+  "execute_actions": 10,
+  "smooth_alpha": 0.2,
+  "post_success_cycles": 5,
+  "mean_infer_ms": 4.800780417604579,
+  "video": "/root/shared-nvme/logs/h50_formal_100k_matrix/recovery/alpha_0.2/episode_025.mp4"
+}

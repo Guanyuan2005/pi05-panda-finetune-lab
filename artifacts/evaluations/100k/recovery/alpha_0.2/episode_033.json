@@ -1,0 +1,13 @@
+{
+  "episode": 33,
+  "seed": 50063,
+  "target_type": "box",
+  "recovery_type": "weak_grasp",
+  "success": true,
+  "steps": 29,
+  "execute_actions": 10,
+  "smooth_alpha": 0.2,
+  "post_success_cycles": 5,
+  "mean_infer_ms": 4.2895964378940645,
+  "video": "/root/shared-nvme/logs/h50_formal_100k_matrix/recovery/alpha_0.2/episode_033.mp4"
+}

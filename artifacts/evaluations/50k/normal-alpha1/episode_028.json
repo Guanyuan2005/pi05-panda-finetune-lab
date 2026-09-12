@@ -1,0 +1,13 @@
+{
+  "episode": 28,
+  "seed": 50034,
+  "target_type": "can",
+  "recovery_type": "none",
+  "success": true,
+  "steps": 24,
+  "execute_actions": 10,
+  "smooth_alpha": 1.0,
+  "post_success_cycles": 5,
+  "mean_infer_ms": 4.118297016248107,
+  "video": "/root/shared-nvme/logs/h50_formal_50k_no_smoothing/alpha_1.0/episode_028.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "episode": 10,
+  "seed": 50052,
+  "target_type": "apple",
+  "recovery_type": "object_slip",
+  "success": false,
+  "steps": 100,
+  "execute_actions": 10,
+  "smooth_alpha": 0.2,
+  "post_success_cycles": 5,
+  "mean_infer_ms": 5.420819986611605,
+  "video": "/root/shared-nvme/logs/h50_formal_50k_recovery/alpha_0.2/episode_010.mp4"
+}

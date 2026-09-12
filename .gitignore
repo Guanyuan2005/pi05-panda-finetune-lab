@@ -4,15 +4,15 @@ __pycache__/
 *.py[cod]
 
 # Generated datasets and model weights are many gigabytes.
-data/raw/
-data/staging/
-data/lerobot/
-upload/
-checkpoints/
+/data/raw/
+/data/staging/
+/data/lerobot/
+/upload/
+/checkpoints/
 
 # Raw runs stay off Git; curated summaries live under artifacts/.
-logs/
-results/
+/logs/
+/results/
 reports/sample_videos/*.mp4
 *.orig
 

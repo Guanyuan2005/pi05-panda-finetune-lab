@@ -1,0 +1,13 @@
+{
+  "episode": 4,
+  "seed": 50016,
+  "target_type": "apple",
+  "recovery_type": "none",
+  "success": true,
+  "steps": 86,
+  "execute_actions": 10,
+  "smooth_alpha": 1.0,
+  "post_success_cycles": 5,
+  "mean_infer_ms": 4.432468133610349,
+  "video": "/root/shared-nvme/logs/h50_formal_50k_no_smoothing/alpha_1.0/episode_004.mp4"
+}

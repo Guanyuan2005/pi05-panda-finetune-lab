@@ -1,0 +1,13 @@
+{
+  "episode": 0,
+  "seed": 50050,
+  "target_type": "can",
+  "recovery_type": "approach_offset",
+  "success": true,
+  "steps": 35,
+  "execute_actions": 10,
+  "smooth_alpha": 0.2,
+  "post_success_cycles": 5,
+  "mean_infer_ms": 754.4821529516151,
+  "video": "/root/shared-nvme/logs/h50_formal_50k_recovery/alpha_0.2/episode_000.mp4"
+}
