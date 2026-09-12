@@ -5,13 +5,15 @@
 实验名：`panda_h50_formal_v1`  
 Checkpoint：`/root/shared-nvme/checkpoints/pi05_panda_h50_formal/panda_h50_formal_v1/50000`
 
+> **后续方法复核：**本报告中的“恢复场景”只是按 `recovery_type` metadata 分组的另一批未见 seed；现有 policy evaluator 未在 rollout 中注入对应扰动。因此 55%/75% 不能解读为真实扰动恢复率，最新口径见 [50k vs 100k 报告](./h50_formal_50k_vs_100k_report.md)。
+
 ## 1. 阶段结论
 
 50k checkpoint 已经学会四类物体的基本抓取和放置。在 40 个冻结的普通测试场景上，最佳执行参数为 `execute_actions=10`、`smooth_alpha=0.2`，成功率为 **34/40（85%）**。
 
-同一模型在 40 个恢复测试场景上使用 `alpha=0.2` 时成功率为 **22/40（55%）**；关闭 EMA（`alpha=1.0`）后提高到 **30/40（75%）**。这说明模型具备一定恢复能力，但强平滑产生的响应滞后明显妨碍了快速纠错。
+同一模型在 40 个 recovery 标签场景上使用 `alpha=0.2` 时成功率为 **22/40（55%）**；关闭 EMA（`alpha=1.0`）后为 **30/40（75%）**。由于评测器未实际注入扰动，该差异只能说明 alpha 在这批随机 seed 上影响较大，不能证明模型具备对应恢复能力。
 
-因此，50k 可以作为当前基线和候选部署模型，但暂不应认定为最终模型。部署参数需要在普通场景的平稳性和恢复场景的响应速度之间权衡；建议测试较弱平滑或自适应平滑，再训练到 75k 并在完全相同的测试集上复测。
+因此，50k 可以作为当前基线和候选部署模型，但暂不应认定为最终模型。部署参数需要在动作平稳性和任务响应速度之间权衡；后续结果以 100k 配对报告为准。
 
 ## 2. 评测设置
 
@@ -20,7 +22,7 @@ Checkpoint：`/root/shared-nvme/checkpoints/pi05_panda_h50_formal/panda_h50_form
 - 单回合最大规划步数：`max_steps=100`
 - 成功后继续执行：`post_success_cycles=5`（早期单场景验证曾使用 30）
 - 普通评测集：冻结测试集中的 40 个 `recovery_type=none` 场景，四种目标各 10 个
-- 恢复评测集：冻结测试集中的 40 个 recovery 场景，四种恢复类型各 10 个
+- recovery 标签子集：冻结测试集中的 40 个未见 seed，四种 metadata 标签各 10 个；评测时未注入对应扰动
 - 普通场景的不同 `smooth_alpha` 使用同一批场景，以保证横向可比
 
 评测脚本：`scripts/run_mujoco_policy_eval_receding.py`
@@ -42,7 +44,7 @@ Checkpoint：`/root/shared-nvme/checkpoints/pi05_panda_h50_formal/panda_h50_form
 - 四组只有每组 40 回合，5 个百分点的总体差距还不足以证明统计上的稳定优势；但 `alpha=0.2` 同时具有最高成功率和更强的抑制抖动效果，因此适合作为当前默认值。
 - 成功率没有随 alpha 单调变化，说明结果还受到场景难度、闭环状态和模型采样的共同影响。
 
-## 4. Recovery 场景结果
+## 4. Recovery 标签子集结果（未注入扰动）
 
 统一使用 `execute_actions=10`，对比 `smooth_alpha=0.2` 与关闭 EMA 的 `smooth_alpha=1.0`。
 
@@ -58,11 +60,10 @@ Checkpoint：`/root/shared-nvme/checkpoints/pi05_panda_h50_formal/panda_h50_form
 
 ### 4.1 解读
 
-- 关闭 EMA 后，`approach_offset`、`object_slip` 和 `weak_grasp` 分别多成功 2、3、3 个回合；`place_offset` 没有变化。
-- 8/40 的提升幅度远大于普通场景中 `alpha=0.2` 相对无平滑的 2/40 优势，说明强 EMA 平滑对恢复动作的负面影响不可忽略。
-- `place_offset` 在两种设置下均为 5/10，更可能是模型能力或数据覆盖问题，而不是平滑造成。
-- `orange` 在无平滑 recovery 中只有 5/10，是当前需要重点检查失败视频的目标物体。
-- 若普通与 recovery 场景等权，`alpha=1.0` 合计为 62/80（77.5%），`alpha=0.2` 为 56/80（70%）。因此包含较多扰动和失败恢复的部署环境更适合弱平滑或自适应平滑。
+- `alpha=1.0` 在这一标签子集比 `alpha=0.2` 多成功 8 个回合。
+- 四个标签对应不同 seed，且扰动未注入，因此不能把分组差异归因于特定 recovery 能力。
+- `orange` 在无平滑标签子集中只有 5/10，说明这些橘子场景值得检查，但不是 object-slip/place-offset 能力证据。
+- 两组未见场景合计时，`alpha=1.0` 为 62/80（77.5%），`alpha=0.2` 为 56/80（70%）；这只支持当前模型部署优先选择无 EMA。
 
 ## 5. 动作平滑原理
 
@@ -82,7 +83,7 @@ smoothed_target[t] = alpha * raw_target[t]
 
 在每个 100 ms 动作周期内部，评估器还会从前一目标向新目标做线性插值。EMA 用于过滤相邻模型动作之间的高频跳变，周期内插值用于避免控制目标瞬间阶跃，两者共同减少机械臂可见抖动。
 
-平滑不能提升模型本身的认知或恢复能力。过强平滑还可能延迟夹爪闭合、快速重定位等纠错动作，因此普通场景的最佳 alpha 不一定也是 recovery 场景的最佳 alpha。
+平滑不能提升模型本身的认知或恢复能力。过强平滑可能延迟夹爪闭合和快速重定位；是否妨碍真实纠错动作必须由扰动注入实验验证。
 
 ## 6. 与训练指标的关系
 

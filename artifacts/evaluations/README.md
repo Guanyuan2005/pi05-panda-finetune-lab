@@ -2,6 +2,8 @@
 
 These are the evaluator outputs copied from the frozen cloud runs. Each run keeps its aggregate `summary.json`, per-episode JSON records, and console `run.log` where available.
 
+> `recovery` in these paths is a historical metadata split. The current evaluator did not inject the named perturbation during policy rollout, so these numbers must not be interpreted as causal recovery rates.
+
 | Checkpoint | Split / setting | Result |
 |---|---|---|
 | 50k | normal, alpha 0.2/0.3/0.5 quick matrix | [`normal-smoothed-quick/`](./50k/normal-smoothed-quick/) |
