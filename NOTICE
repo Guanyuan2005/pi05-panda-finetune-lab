@@ -1,0 +1,17 @@
+π0.5 Panda/MuJoCo Fine-tuning Lab
+Copyright 2026 Guan Haoyuan (GitHub: Guanyuan2005)
+
+This project is licensed under the Apache License, Version 2.0.
+
+Third-party projects are not relicensed by this repository:
+
+- OpenPI (Apache-2.0): https://github.com/Physical-Intelligence/openpi
+  This repository includes a configuration patch targeting the pinned OpenPI
+  commit recorded in artifacts/source/openpi-commit.txt.
+- MuJoCo (Apache-2.0): https://github.com/google-deepmind/mujoco
+- MuJoCo Menagerie: https://github.com/google-deepmind/mujoco_menagerie
+  The Franka Emika Panda model used by this project is Apache-2.0 licensed.
+- LeRobot: https://github.com/huggingface/lerobot
+
+The names and trademarks of third-party projects belong to their respective
+owners. Their licenses continue to govern their code, models, and assets.

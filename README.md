@@ -96,3 +96,9 @@ python scripts/run_mujoco_policy_eval_receding.py \
 ## 不包含的文件
 
 Git 仓库不保存虚拟环境、缓存、原始数据集或 Orbax checkpoint。当前单个 checkpoint 约 8.9 GB，应使用对象存储或 GitHub Release 单独发布，而不是普通 Git commit。
+
+## 许可证
+
+本项目的原创代码和文档使用 [Apache License 2.0](./LICENSE)。项目依赖的 OpenPI、MuJoCo、MuJoCo Menagerie 和 LeRobot 仍由各自的上游许可证约束，详见 [NOTICE](./NOTICE)。
+
+仓库中的评测结果、日志和视频用于研究复现与学习交流；第三方商标及上游资产归其各自权利人所有。
