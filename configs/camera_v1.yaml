@@ -1,0 +1,8 @@
+version: camera_v1
+image_size: [256, 256]
+external_camera: "斜视视觉相机A"
+wrist_camera_in_hand:
+  name: "腕部相机"
+  pos: [0.045, 0.0, 0.055]
+  quat: [0.0, 1.0, 0.0, 0.0]
+  fovy: 72.0

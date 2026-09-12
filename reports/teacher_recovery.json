@@ -1,0 +1,222 @@
+{
+  "ok": true,
+  "teacher_source": "privileged",
+  "mode": "recovery",
+  "episodes": 20,
+  "successes": 18,
+  "success_rate": 0.9,
+  "minimum_success_rate": 0.9,
+  "recovery_counts": {
+    "approach_offset": 5,
+    "weak_grasp": 5,
+    "object_slip": 5,
+    "place_offset": 5
+  },
+  "failure_counts": {
+    "grasp_verification_failed": 1,
+    "place_verification_failed": 1
+  },
+  "max_action_jump": 0.04484134912490845,
+  "episodes_detail": [
+    {
+      "seed": 200,
+      "recovery_type": "approach_offset",
+      "success": true,
+      "retry_count": 1,
+      "frames": 218,
+      "failure_reason": "none",
+      "max_action_jump": 0.03189957141876221,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 201,
+      "recovery_type": "weak_grasp",
+      "success": true,
+      "retry_count": 1,
+      "frames": 226,
+      "failure_reason": "none",
+      "max_action_jump": 0.031249642372131348,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 202,
+      "recovery_type": "object_slip",
+      "success": true,
+      "retry_count": 1,
+      "frames": 217,
+      "failure_reason": "none",
+      "max_action_jump": 0.03077828884124756,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 203,
+      "recovery_type": "place_offset",
+      "success": true,
+      "retry_count": 1,
+      "frames": 275,
+      "failure_reason": "none",
+      "max_action_jump": 0.033940672874450684,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 204,
+      "recovery_type": "approach_offset",
+      "success": true,
+      "retry_count": 1,
+      "frames": 218,
+      "failure_reason": "none",
+      "max_action_jump": 0.030823349952697754,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 205,
+      "recovery_type": "weak_grasp",
+      "success": true,
+      "retry_count": 1,
+      "frames": 222,
+      "failure_reason": "none",
+      "max_action_jump": 0.030765295028686523,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 206,
+      "recovery_type": "object_slip",
+      "success": true,
+      "retry_count": 1,
+      "frames": 229,
+      "failure_reason": "none",
+      "max_action_jump": 0.033609867095947266,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 207,
+      "recovery_type": "place_offset",
+      "success": true,
+      "retry_count": 1,
+      "frames": 275,
+      "failure_reason": "none",
+      "max_action_jump": 0.033011674880981445,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 208,
+      "recovery_type": "approach_offset",
+      "success": true,
+      "retry_count": 1,
+      "frames": 144,
+      "failure_reason": "none",
+      "max_action_jump": 0.030693531036376953,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 209,
+      "recovery_type": "weak_grasp",
+      "success": true,
+      "retry_count": 1,
+      "frames": 218,
+      "failure_reason": "none",
+      "max_action_jump": 0.030768394470214844,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 210,
+      "recovery_type": "object_slip",
+      "success": true,
+      "retry_count": 1,
+      "frames": 221,
+      "failure_reason": "none",
+      "max_action_jump": 0.03316926956176758,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 211,
+      "recovery_type": "place_offset",
+      "success": true,
+      "retry_count": 1,
+      "frames": 274,
+      "failure_reason": "none",
+      "max_action_jump": 0.03159201145172119,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 212,
+      "recovery_type": "approach_offset",
+      "success": false,
+      "retry_count": 3,
+      "frames": 301,
+      "failure_reason": "grasp_verification_failed",
+      "max_action_jump": 0.030774354934692383,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 213,
+      "recovery_type": "weak_grasp",
+      "success": true,
+      "retry_count": 1,
+      "frames": 218,
+      "failure_reason": "none",
+      "max_action_jump": 0.030910015106201172,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 214,
+      "recovery_type": "object_slip",
+      "success": true,
+      "retry_count": 1,
+      "frames": 217,
+      "failure_reason": "none",
+      "max_action_jump": 0.030757904052734375,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 215,
+      "recovery_type": "place_offset",
+      "success": true,
+      "retry_count": 1,
+      "frames": 277,
+      "failure_reason": "none",
+      "max_action_jump": 0.03405046463012695,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 216,
+      "recovery_type": "approach_offset",
+      "success": true,
+      "retry_count": 1,
+      "frames": 246,
+      "failure_reason": "none",
+      "max_action_jump": 0.04484134912490845,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 217,
+      "recovery_type": "weak_grasp",
+      "success": true,
+      "retry_count": 2,
+      "frames": 359,
+      "failure_reason": "none",
+      "max_action_jump": 0.031722307205200195,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 218,
+      "recovery_type": "object_slip",
+      "success": true,
+      "retry_count": 1,
+      "frames": 226,
+      "failure_reason": "none",
+      "max_action_jump": 0.031519293785095215,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 219,
+      "recovery_type": "place_offset",
+      "success": false,
+      "retry_count": 3,
+      "frames": 356,
+      "failure_reason": "place_verification_failed",
+      "max_action_jump": 0.03337264060974121,
+      "minimum_planned_clearance": 0.5009999999999999
+    }
+  ]
+}

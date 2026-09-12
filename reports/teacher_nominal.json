@@ -1,0 +1,518 @@
+{
+  "ok": true,
+  "teacher_source": "privileged",
+  "mode": "nominal",
+  "episodes": 50,
+  "successes": 49,
+  "success_rate": 0.98,
+  "minimum_success_rate": 0.9,
+  "recovery_counts": {
+    "none": 50
+  },
+  "failure_counts": {
+    "place_verification_failed": 1
+  },
+  "max_action_jump": 0.03449428081512451,
+  "episodes_detail": [
+    {
+      "seed": 100,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 138,
+      "failure_reason": "none",
+      "max_action_jump": 0.0316852331161499,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 101,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 137,
+      "failure_reason": "none",
+      "max_action_jump": 0.030295133590698242,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 102,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029880523681640625,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 103,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029894590377807617,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 104,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029907703399658203,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 105,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 137,
+      "failure_reason": "none",
+      "max_action_jump": 0.02985858917236328,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 106,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 150,
+      "failure_reason": "none",
+      "max_action_jump": 0.03449428081512451,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 107,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029921293258666992,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 108,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 137,
+      "failure_reason": "none",
+      "max_action_jump": 0.03189980983734131,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 109,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029851198196411133,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 110,
+      "recovery_type": "none",
+      "success": false,
+      "retry_count": 3,
+      "frames": 359,
+      "failure_reason": "place_verification_failed",
+      "max_action_jump": 0.03170180320739746,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 111,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029880523681640625,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 112,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029928088188171387,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 113,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029843807220458984,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 114,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 137,
+      "failure_reason": "none",
+      "max_action_jump": 0.029858112335205078,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 115,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029889345169067383,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 116,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.02998518943786621,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 117,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 138,
+      "failure_reason": "none",
+      "max_action_jump": 0.029860615730285645,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 118,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 143,
+      "failure_reason": "none",
+      "max_action_jump": 0.03048121929168701,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 119,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 142,
+      "failure_reason": "none",
+      "max_action_jump": 0.030399441719055176,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 120,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 1,
+      "frames": 275,
+      "failure_reason": "none",
+      "max_action_jump": 0.03087019920349121,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 121,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029897451400756836,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 122,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 138,
+      "failure_reason": "none",
+      "max_action_jump": 0.029858112335205078,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 123,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 137,
+      "failure_reason": "none",
+      "max_action_jump": 0.02985692024230957,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 124,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 138,
+      "failure_reason": "none",
+      "max_action_jump": 0.029873371124267578,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 125,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 140,
+      "failure_reason": "none",
+      "max_action_jump": 0.02988290786743164,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 126,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029881000518798828,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 127,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.02987957000732422,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 128,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029883742332458496,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 129,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029873132705688477,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 130,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.02985405921936035,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 131,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029875755310058594,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 132,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029847383499145508,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 133,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 139,
+      "failure_reason": "none",
+      "max_action_jump": 0.03070998191833496,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 134,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 144,
+      "failure_reason": "none",
+      "max_action_jump": 0.030567646026611328,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 135,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029875755310058594,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 136,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.02985548973083496,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 137,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 137,
+      "failure_reason": "none",
+      "max_action_jump": 0.02988588809967041,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 138,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029858112335205078,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 139,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029890060424804688,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 140,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029903650283813477,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 141,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 140,
+      "failure_reason": "none",
+      "max_action_jump": 0.029859066009521484,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 142,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029863357543945312,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 143,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029888153076171875,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 144,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 140,
+      "failure_reason": "none",
+      "max_action_jump": 0.030061960220336914,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 145,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029955506324768066,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 146,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 137,
+      "failure_reason": "none",
+      "max_action_jump": 0.029934406280517578,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 147,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 145,
+      "failure_reason": "none",
+      "max_action_jump": 0.031223773956298828,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 148,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.02991187572479248,
+      "minimum_planned_clearance": 0.5009999999999999
+    },
+    {
+      "seed": 149,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 135,
+      "failure_reason": "none",
+      "max_action_jump": 0.029864072799682617,
+      "minimum_planned_clearance": 0.5009999999999999
+    }
+  ]
+}

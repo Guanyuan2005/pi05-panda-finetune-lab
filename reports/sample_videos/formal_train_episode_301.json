@@ -1,0 +1,11 @@
+{
+  "episode": 301,
+  "expected_success": true,
+  "final_apple_xyz": [
+    0.4019179808929649,
+    0.2327993306964867,
+    0.3900866324706664
+  ],
+  "replay_success": true,
+  "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/formal_train_episode_301.mp4"
+}

@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "teacher_source": "vision",
+  "mode": "nominal",
+  "episodes": 1,
+  "successes": 1,
+  "success_rate": 1.0,
+  "minimum_success_rate": 0.9,
+  "recovery_counts": {
+    "none": 1
+  },
+  "failure_counts": {},
+  "max_action_jump": 0.029867172241210938,
+  "episodes_detail": [
+    {
+      "seed": 0,
+      "recovery_type": "none",
+      "success": true,
+      "retry_count": 0,
+      "frames": 136,
+      "failure_reason": "none",
+      "max_action_jump": 0.029867172241210938,
+      "minimum_planned_clearance": 0.5009999999999999
+    }
+  ]
+}

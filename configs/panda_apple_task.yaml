@@ -1,0 +1,37 @@
+task: "Pick up the {target} and place it in the green box."
+fps: 10
+physics_timestep: 0.002
+distractor_count: 1
+max_retries: 2
+teacher_source: privileged
+teacher_version: panda_multi_object_teacher_v2
+image_size: 256
+target_objects:
+  - apple
+  - orange
+  - can
+  - box
+tray:
+  center_xy: [0.40, 0.25]
+  random_xy: [0.025, 0.020]
+  inner_half_size: [0.120, 0.100]
+  wall_thickness: 0.008
+  wall_height: 0.085
+trajectory:
+  curve_samples: 18
+  lateral_offsets: [0.0, -0.07, 0.07]
+  obstacle_margin: 0.025
+  max_joint_step: 0.045
+  approach_seconds: 2.2
+  descend_seconds: 1.8
+  gripper_seconds: 1.2
+  lift_seconds: 2.0
+  lift_max_joint_step: 0.018
+  settle_seconds: 1.2
+  box_hover_margin: 0.100
+  pretransfer_lift_margin: 0.030
+  release_floor_preload: 0.004
+  place_settle_min_seconds: 0.8
+  place_settle_max_seconds: 1.8
+  release_tcp_tolerance: 0.006
+  release_joint_speed: 0.15

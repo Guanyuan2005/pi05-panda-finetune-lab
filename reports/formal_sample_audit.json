@@ -1,0 +1,4761 @@
+{
+  "episodes_checked": 60,
+  "frames_checked": 180,
+  "ok": true,
+  "recovery_counts": {
+    "approach_offset": 10,
+    "none": 20,
+    "object_slip": 10,
+    "place_offset": 10,
+    "weak_grasp": 10
+  },
+  "results": [
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10448839515447617,
+          "means": [
+            0.6286179423332214,
+            0.6202361583709717,
+            0.6110849380493164
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.280600368976593,
+            0.28032997250556946,
+            0.2765974700450897
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4596376121044159,
+          "means": [
+            0.7054404616355896,
+            0.5620025992393494,
+            0.46159592270851135
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.3171326220035553,
+            0.34451982378959656,
+            0.3620434105396271
+          ]
+        }
+      },
+      "episode": 60,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        12113,
+        12211,
+        12310
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10060,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1078442707657814,
+          "means": [
+            0.62845379114151,
+            0.6281564831733704,
+            0.6109751462936401
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27955013513565063,
+            0.27905595302581787,
+            0.27432599663734436
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4467935562133789,
+          "means": [
+            0.7147650122642517,
+            0.6623461842536926,
+            0.45865464210510254
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.30549976229667664,
+            0.3291742205619812,
+            0.3541821837425232
+          ]
+        }
+      },
+      "episode": 129,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        26194,
+        26296,
+        26398
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10129,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10463858395814896,
+          "means": [
+            0.6286464333534241,
+            0.6258130669593811,
+            0.6094065308570862
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.278872549533844,
+            0.2785694897174835,
+            0.274929940700531
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4273185729980469,
+          "means": [
+            0.7352100014686584,
+            0.5334664583206177,
+            0.4618123471736908
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2927044630050659,
+            0.34391504526138306,
+            0.35381296277046204
+          ]
+        }
+      },
+      "episode": 39,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        7883,
+        7981,
+        8080
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10039,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10791794210672379,
+          "means": [
+            0.6285392045974731,
+            0.6207582354545593,
+            0.613198459148407
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27776050567626953,
+            0.2781793475151062,
+            0.277112752199173
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4392690360546112,
+          "means": [
+            0.7929159998893738,
+            0.5783212184906006,
+            0.4608253240585327
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2466905117034912,
+            0.32666015625,
+            0.3531032204627991
+          ]
+        }
+      },
+      "episode": 83,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        16814,
+        16914,
+        17015
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10083,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10596133023500443,
+          "means": [
+            0.6309446692466736,
+            0.6291959285736084,
+            0.61077481508255
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2780429720878601,
+            0.27747878432273865,
+            0.27458277344703674
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4423675537109375,
+          "means": [
+            0.7777919173240662,
+            0.661870539188385,
+            0.45965924859046936
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2650816738605499,
+            0.33542701601982117,
+            0.3525323271751404
+          ]
+        }
+      },
+      "episode": 187,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        38021,
+        38127,
+        38233
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10187,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10968714207410812,
+          "means": [
+            0.6275571584701538,
+            0.6288129687309265,
+            0.6106113195419312
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2776122987270355,
+            0.2776305675506592,
+            0.27613574266433716
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.45732924342155457,
+          "means": [
+            0.788879930973053,
+            0.6823088526725769,
+            0.4325801432132721
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.25381746888160706,
+            0.34305158257484436,
+            0.34177976846694946
+          ]
+        }
+      },
+      "episode": 176,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        35793,
+        35903,
+        36014
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10176,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10599768161773682,
+          "means": [
+            0.626467764377594,
+            0.6154234409332275,
+            0.6106812357902527
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27803510427474976,
+            0.27811580896377563,
+            0.2743935286998749
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.447442889213562,
+          "means": [
+            0.7592753767967224,
+            0.5561218857765198,
+            0.448100209236145
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2686057388782501,
+            0.3476015031337738,
+            0.3429405093193054
+          ]
+        }
+      },
+      "episode": 290,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        59089,
+        59186,
+        59283
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10290,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10667587071657181,
+          "means": [
+            0.6294917464256287,
+            0.6291618347167969,
+            0.6102607250213623
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2776779234409332,
+            0.27737298607826233,
+            0.2758418619632721
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.45590949058532715,
+          "means": [
+            0.7705722451210022,
+            0.6725229620933533,
+            0.4573020040988922
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2706008851528168,
+            0.3319913148880005,
+            0.34916484355926514
+          ]
+        }
+      },
+      "episode": 130,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        26399,
+        26500,
+        26602
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10130,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10623913258314133,
+          "means": [
+            0.6301829814910889,
+            0.6285331845283508,
+            0.6107181906700134
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27767065167427063,
+            0.2771526873111725,
+            0.27475062012672424
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4430816173553467,
+          "means": [
+            0.7938995361328125,
+            0.6648262143135071,
+            0.45418524742126465
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.24915282428264618,
+            0.3344433009624481,
+            0.3491806089878082
+          ]
+        }
+      },
+      "episode": 7,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        1422,
+        1527,
+        1633
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10007,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10279714316129684,
+          "means": [
+            0.6337761282920837,
+            0.6314076781272888,
+            0.6101624369621277
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27957141399383545,
+            0.27887552976608276,
+            0.27506253123283386
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4482058584690094,
+          "means": [
+            0.7593535780906677,
+            0.7065868377685547,
+            0.4755088984966278
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28370949625968933,
+            0.3252510726451874,
+            0.36058464646339417
+          ]
+        }
+      },
+      "episode": 46,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        9308,
+        9409,
+        9511
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10046,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10515918582677841,
+          "means": [
+            0.6304109692573547,
+            0.6215767860412598,
+            0.6103706359863281
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27909842133522034,
+            0.28029635548591614,
+            0.2742244005203247
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4720480740070343,
+          "means": [
+            0.7707061171531677,
+            0.6358885765075684,
+            0.45166102051734924
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28082385659217834,
+            0.320046067237854,
+            0.34949618577957153
+          ]
+        }
+      },
+      "episode": 89,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        18014,
+        18115,
+        18216
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10089,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10622414946556091,
+          "means": [
+            0.6285969614982605,
+            0.6267326474189758,
+            0.6128379106521606
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2785062789916992,
+            0.2782749831676483,
+            0.27659618854522705
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4356144666671753,
+          "means": [
+            0.7680935263633728,
+            0.5687938332557678,
+            0.46927952766418457
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.26959189772605896,
+            0.32908961176872253,
+            0.3585706055164337
+          ]
+        }
+      },
+      "episode": 95,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        19220,
+        19323,
+        19427
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10095,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10334685444831848,
+          "means": [
+            0.6278512477874756,
+            0.6203356385231018,
+            0.6106768250465393
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2795525789260864,
+            0.2792174220085144,
+            0.27624598145484924
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.46278974413871765,
+          "means": [
+            0.731400191783905,
+            0.5690816044807434,
+            0.47047150135040283
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.3016418218612671,
+            0.34500956535339355,
+            0.35728195309638977
+          ]
+        }
+      },
+      "episode": 66,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        13345,
+        13442,
+        13540
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10066,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10156699270009995,
+          "means": [
+            0.6297604441642761,
+            0.6281528472900391,
+            0.6090812087059021
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2800401449203491,
+            0.2800366282463074,
+            0.27515172958374023
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4467049539089203,
+          "means": [
+            0.745826005935669,
+            0.5239266753196716,
+            0.46895256638526917
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.30727246403694153,
+            0.35780754685401917,
+            0.35827991366386414
+          ]
+        }
+      },
+      "episode": 203,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        41319,
+        41418,
+        41518
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10203,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1045207679271698,
+          "means": [
+            0.6318032741546631,
+            0.6242546439170837,
+            0.6125246286392212
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2788591980934143,
+            0.2794640362262726,
+            0.27529606223106384
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.44418394565582275,
+          "means": [
+            0.7687325477600098,
+            0.5711647868156433,
+            0.47508692741394043
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27309441566467285,
+            0.32859474420547485,
+            0.3618287742137909
+          ]
+        }
+      },
+      "episode": 275,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        56057,
+        56157,
+        56258
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10275,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10382091253995895,
+          "means": [
+            0.6276502013206482,
+            0.625079333782196,
+            0.6118931174278259
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27903851866722107,
+            0.27919623255729675,
+            0.27696406841278076
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.43937554955482483,
+          "means": [
+            0.7513343691825867,
+            0.612101674079895,
+            0.46715232729911804
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2996369004249573,
+            0.3520468771457672,
+            0.35541579127311707
+          ]
+        }
+      },
+      "episode": 186,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        37824,
+        37922,
+        38020
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10186,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10670110583305359,
+          "means": [
+            0.6280922889709473,
+            0.6246214509010315,
+            0.6127945780754089
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28049349784851074,
+            0.2807067632675171,
+            0.2757912874221802
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4516134262084961,
+          "means": [
+            0.7018170356750488,
+            0.5661121010780334,
+            0.46158501505851746
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.31382662057876587,
+            0.34252113103866577,
+            0.3620193302631378
+          ]
+        }
+      },
+      "episode": 264,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        53775,
+        53877,
+        53979
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10264,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10530240088701248,
+          "means": [
+            0.6296427845954895,
+            0.6284828782081604,
+            0.6133005619049072
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27814558148384094,
+            0.27775225043296814,
+            0.27535107731819153
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4428516626358032,
+          "means": [
+            0.7813958525657654,
+            0.6167142391204834,
+            0.4688880443572998
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2614549994468689,
+            0.33610543608665466,
+            0.3583507537841797
+          ]
+        }
+      },
+      "episode": 47,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        9512,
+        9614,
+        9716
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10047,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10207859426736832,
+          "means": [
+            0.6292895674705505,
+            0.6170069575309753,
+            0.6084148287773132
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2797793447971344,
+            0.27928873896598816,
+            0.27525073289871216
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.48406267166137695,
+          "means": [
+            0.7352967858314514,
+            0.5570574402809143,
+            0.45467695593833923
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.30919134616851807,
+            0.35316774249076843,
+            0.35129064321517944
+          ]
+        }
+      },
+      "episode": 249,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        50710,
+        50807,
+        50905
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10249,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1014188826084137,
+          "means": [
+            0.6305997371673584,
+            0.6222154498100281,
+            0.6083604693412781
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28080838918685913,
+            0.28041091561317444,
+            0.27561700344085693
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4663139581680298,
+          "means": [
+            0.7083609700202942,
+            0.4525047838687897,
+            0.4603217840194702
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.32901138067245483,
+            0.2823891043663025,
+            0.36159709095954895
+          ]
+        }
+      },
+      "episode": 128,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        25894,
+        26043,
+        26193
+      ],
+      "ok": true,
+      "recovery_type": "none",
+      "scene_seed": 10128,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10644682496786118,
+          "means": [
+            0.6305819153785706,
+            0.6299751400947571,
+            0.6129097938537598
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27932488918304443,
+            0.27980470657348633,
+            0.2763443887233734
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.47240936756134033,
+          "means": [
+            0.7366335391998291,
+            0.6071875691413879,
+            0.46219995617866516
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.3009311258792877,
+            0.3479011356830597,
+            0.3623148202896118
+          ]
+        }
+      },
+      "episode": 372,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        85066,
+        85171,
+        85277
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20072,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10568267107009888,
+          "means": [
+            0.6274667382240295,
+            0.6211165189743042,
+            0.609523355960846
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27934572100639343,
+            0.2773667573928833,
+            0.27716371417045593
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4536304771900177,
+          "means": [
+            0.7639396786689758,
+            0.5052902102470398,
+            0.4475092589855194
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.29441404342651367,
+            0.2573443651199341,
+            0.3506961166858673
+          ]
+        }
+      },
+      "episode": 316,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        66444,
+        66598,
+        66753
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20016,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10285807400941849,
+          "means": [
+            0.6308140754699707,
+            0.6293286681175232,
+            0.6094263195991516
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2813761532306671,
+            0.28161826729774475,
+            0.27528825402259827
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4799472987651825,
+          "means": [
+            0.7073915600776672,
+            0.5854176878929138,
+            0.46146783232688904
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.32731905579566956,
+            0.3526132106781006,
+            0.36201009154319763
+          ]
+        }
+      },
+      "episode": 380,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        87548,
+        87655,
+        87763
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20080,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1092754527926445,
+          "means": [
+            0.6288067698478699,
+            0.6196113228797913,
+            0.6074489951133728
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27797040343284607,
+            0.2769092619419098,
+            0.2757786810398102
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4545156955718994,
+          "means": [
+            0.7733108401298523,
+            0.5172135233879089,
+            0.4343389570713043
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2647630274295807,
+            0.25810927152633667,
+            0.34216636419296265
+          ]
+        }
+      },
+      "episode": 332,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        71710,
+        71861,
+        72012
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20032,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10766792297363281,
+          "means": [
+            0.6292540431022644,
+            0.6181562542915344,
+            0.6099305152893066
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2786797285079956,
+            0.27640801668167114,
+            0.2766198217868805
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4643934667110443,
+          "means": [
+            0.7420611381530762,
+            0.4990372955799103,
+            0.45573434233665466
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.29032278060913086,
+            0.24960152804851532,
+            0.35734736919403076
+          ]
+        }
+      },
+      "episode": 312,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        65092,
+        65240,
+        65389
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20012,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10629161447286606,
+          "means": [
+            0.6275849342346191,
+            0.620427668094635,
+            0.6122715473175049
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2793911397457123,
+            0.2787732183933258,
+            0.2776716649532318
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.46186938881874084,
+          "means": [
+            0.7273707985877991,
+            0.4698127210140228,
+            0.46130385994911194
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.29441800713539124,
+            0.2508174777030945,
+            0.36216646432876587
+          ]
+        }
+      },
+      "episode": 328,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        70394,
+        70543,
+        70692
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20028,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10709423571825027,
+          "means": [
+            0.6263711452484131,
+            0.6199560761451721,
+            0.607420027256012
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27946344017982483,
+            0.27813753485679626,
+            0.2761622369289398
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.45662418007850647,
+          "means": [
+            0.7412922382354736,
+            0.5830128788948059,
+            0.4380670487880707
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.305280864238739,
+            0.2878362536430359,
+            0.3445827066898346
+          ]
+        }
+      },
+      "episode": 344,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        75730,
+        75886,
+        76042
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20044,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1049332320690155,
+          "means": [
+            0.631074070930481,
+            0.6251340508460999,
+            0.6085525751113892
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2806412875652313,
+            0.2807430624961853,
+            0.2754325866699219
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.48293256759643555,
+          "means": [
+            0.7366046905517578,
+            0.5867728590965271,
+            0.4610257148742676
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.3123663663864136,
+            0.33991771936416626,
+            0.36197584867477417
+          ]
+        }
+      },
+      "episode": 352,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        78384,
+        78488,
+        78593
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20052,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1082504391670227,
+          "means": [
+            0.6283774971961975,
+            0.6210856437683105,
+            0.6094837784767151
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.280122846364975,
+            0.2792549133300781,
+            0.2746942341327667
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.46033963561058044,
+          "means": [
+            0.6921378970146179,
+            0.31914326548576355,
+            0.45042431354522705
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.3198432922363281,
+            0.27257096767425537,
+            0.35534581542015076
+          ]
+        }
+      },
+      "episode": 324,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        69089,
+        69237,
+        69385
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20024,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10528344660997391,
+          "means": [
+            0.6297125220298767,
+            0.6226085424423218,
+            0.6128911375999451
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28021499514579773,
+            0.2802979350090027,
+            0.2760336995124817
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4615348279476166,
+          "means": [
+            0.7459449172019958,
+            0.428707093000412,
+            0.46066227555274963
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.30241039395332336,
+            0.27586230635643005,
+            0.36206549406051636
+          ]
+        }
+      },
+      "episode": 360,
+      "event_ok": true,
+      "expected_task": "Pick up the red apple and place it in the green box.",
+      "frame_indices": [
+        80985,
+        81141,
+        81298
+      ],
+      "ok": true,
+      "recovery_type": "approach_offset",
+      "scene_seed": 20060,
+      "target_type": "apple",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10506745427846909,
+          "means": [
+            0.6272197365760803,
+            0.6220531463623047,
+            0.6114842891693115
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27896952629089355,
+            0.27770376205444336,
+            0.27647656202316284
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4536712169647217,
+          "means": [
+            0.7272381782531738,
+            0.4831233024597168,
+            0.46533408761024475
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2878590524196625,
+            0.24506431818008423,
+            0.3573009669780731
+          ]
+        }
+      },
+      "episode": 385,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        89036,
+        89184,
+        89333
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20085,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1079770103096962,
+          "means": [
+            0.6262078881263733,
+            0.619792103767395,
+            0.6113510727882385
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27745404839515686,
+            0.277140736579895,
+            0.27671438455581665
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.45159396529197693,
+          "means": [
+            0.7724232077598572,
+            0.5336284041404724,
+            0.4454663097858429
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2636621296405792,
+            0.22530759871006012,
+            0.34494659304618835
+          ]
+        }
+      },
+      "episode": 369,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        83980,
+        84129,
+        84279
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20069,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10497645288705826,
+          "means": [
+            0.6282058358192444,
+            0.6235890984535217,
+            0.6127867102622986
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27966880798339844,
+            0.27883243560791016,
+            0.2754520773887634
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4576471149921417,
+          "means": [
+            0.6989895701408386,
+            0.5195704102516174,
+            0.46858322620391846
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.31421226263046265,
+            0.23417305946350098,
+            0.3606854975223541
+          ]
+        }
+      },
+      "episode": 361,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        81299,
+        81451,
+        81604
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20061,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10239129513502121,
+          "means": [
+            0.629956841468811,
+            0.6231151223182678,
+            0.6102189421653748
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28012219071388245,
+            0.28023219108581543,
+            0.27539384365081787
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4553713798522949,
+          "means": [
+            0.7118389010429382,
+            0.44751080870628357,
+            0.46930059790611267
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.31924864649772644,
+            0.28555986285209656,
+            0.36169806122779846
+          ]
+        }
+      },
+      "episode": 377,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        86490,
+        86641,
+        86792
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20077,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10603269934654236,
+          "means": [
+            0.627948522567749,
+            0.6211330890655518,
+            0.6122404932975769
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27828705310821533,
+            0.27725574374198914,
+            0.2767960727214813
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.45290958881378174,
+          "means": [
+            0.7565867304801941,
+            0.5541500449180603,
+            0.45274022221565247
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2884063720703125,
+            0.22953534126281738,
+            0.35046645998954773
+          ]
+        }
+      },
+      "episode": 365,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        82630,
+        82787,
+        82945
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20065,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10439726710319519,
+          "means": [
+            0.6316530704498291,
+            0.6229164600372314,
+            0.6102505326271057
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2788509726524353,
+            0.2793746590614319,
+            0.27425211668014526
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.47681471705436707,
+          "means": [
+            0.7591729760169983,
+            0.40335822105407715,
+            0.45525988936424255
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2841666042804718,
+            0.26662003993988037,
+            0.35226258635520935
+          ]
+        }
+      },
+      "episode": 373,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        85278,
+        85427,
+        85576
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20073,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10807468742132187,
+          "means": [
+            0.6283034086227417,
+            0.6203250288963318,
+            0.611379861831665
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27730274200439453,
+            0.2763313353061676,
+            0.27687880396842957
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.454708456993103,
+          "means": [
+            0.7781962752342224,
+            0.5722612738609314,
+            0.45133671164512634
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2589263617992401,
+            0.23587028682231903,
+            0.3483503758907318
+          ]
+        }
+      },
+      "episode": 321,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        68061,
+        68210,
+        68360
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20021,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10539180785417557,
+          "means": [
+            0.6285249590873718,
+            0.6228148341178894,
+            0.6069329380989075
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2789420485496521,
+            0.27725738286972046,
+            0.27464279532432556
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4480167627334595,
+          "means": [
+            0.7492831349372864,
+            0.5494871735572815,
+            0.4464554786682129
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2830786108970642,
+            0.22987264394760132,
+            0.345730721950531
+          ]
+        }
+      },
+      "episode": 357,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        79969,
+        80122,
+        80276
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20057,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10892423987388611,
+          "means": [
+            0.6253424286842346,
+            0.620334804058075,
+            0.6126825213432312
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27795758843421936,
+            0.2776373624801636,
+            0.27632835507392883
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4371950626373291,
+          "means": [
+            0.7263358235359192,
+            0.5982534885406494,
+            0.4493173360824585
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2930694818496704,
+            0.25932908058166504,
+            0.3471772074699402
+          ]
+        }
+      },
+      "episode": 333,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        72013,
+        72169,
+        72325
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20033,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10429560393095016,
+          "means": [
+            0.6282552480697632,
+            0.621737003326416,
+            0.6097921133041382
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27960237860679626,
+            0.2775349020957947,
+            0.27493762969970703
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.46076536178588867,
+          "means": [
+            0.717313826084137,
+            0.5533788800239563,
+            0.45674705505371094
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.30975496768951416,
+            0.23088735342025757,
+            0.3527818024158478
+          ]
+        }
+      },
+      "episode": 341,
+      "event_ok": true,
+      "expected_task": "Pick up the orange and place it in the green box.",
+      "frame_indices": [
+        74674,
+        74839,
+        75004
+      ],
+      "ok": true,
+      "recovery_type": "weak_grasp",
+      "scene_seed": 20041,
+      "target_type": "orange",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10685759782791138,
+          "means": [
+            0.6273325085639954,
+            0.6287160515785217,
+            0.6110393404960632
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27884775400161743,
+            0.2781665027141571,
+            0.2742718756198883
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4527794420719147,
+          "means": [
+            0.7367183566093445,
+            0.5305415987968445,
+            0.45709654688835144
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.29051825404167175,
+            0.25964540243148804,
+            0.3479921519756317
+          ]
+        }
+      },
+      "episode": 302,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        61763,
+        61939,
+        62116
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20002,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10118472576141357,
+          "means": [
+            0.6305620074272156,
+            0.6250938773155212,
+            0.6093679070472717
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28056198358535767,
+            0.27789339423179626,
+            0.27466902136802673
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4478038549423218,
+          "means": [
+            0.6980192065238953,
+            0.5197752714157104,
+            0.4770183563232422
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.32072684168815613,
+            0.2394310086965561,
+            0.3609619140625
+          ]
+        }
+      },
+      "episode": 306,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        63135,
+        63285,
+        63436
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20006,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10723912715911865,
+          "means": [
+            0.6251829266548157,
+            0.6249074935913086,
+            0.6120314002037048
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27786293625831604,
+            0.27751895785331726,
+            0.275688111782074
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.44367143511772156,
+          "means": [
+            0.7461966872215271,
+            0.5392757058143616,
+            0.45223140716552734
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28120389580726624,
+            0.24699951708316803,
+            0.34490031003952026
+          ]
+        }
+      },
+      "episode": 350,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        77648,
+        77816,
+        77984
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20050,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1078280583024025,
+          "means": [
+            0.6253321170806885,
+            0.6227772831916809,
+            0.612334668636322
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2775551378726959,
+            0.277373343706131,
+            0.27516311407089233
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4382181167602539,
+          "means": [
+            0.7673733830451965,
+            0.5361699461936951,
+            0.447841078042984
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.26619791984558105,
+            0.24441570043563843,
+            0.34210947155952454
+          ]
+        }
+      },
+      "episode": 386,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        89334,
+        89497,
+        89661
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20086,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10397138446569443,
+          "means": [
+            0.6290048956871033,
+            0.6176095604896545,
+            0.609252393245697
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27804335951805115,
+            0.27628153562545776,
+            0.27515026926994324
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4596826732158661,
+          "means": [
+            0.7577903866767883,
+            0.533512532711029,
+            0.46088656783103943
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27634397149086,
+            0.23661144077777863,
+            0.3509615957736969
+          ]
+        }
+      },
+      "episode": 334,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        72326,
+        72475,
+        72625
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20034,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10436872392892838,
+          "means": [
+            0.6290033459663391,
+            0.6257711052894592,
+            0.6130377650260925
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2789008915424347,
+            0.27726539969444275,
+            0.27691906690597534
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.44235333800315857,
+          "means": [
+            0.7451539635658264,
+            0.5322083234786987,
+            0.47718343138694763
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2885025441646576,
+            0.24550014734268188,
+            0.36103907227516174
+          ]
+        }
+      },
+      "episode": 354,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        78924,
+        79094,
+        79264
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20054,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10074656456708908,
+          "means": [
+            0.6297945380210876,
+            0.6178252100944519,
+            0.6083400845527649
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28050512075424194,
+            0.2781352996826172,
+            0.2751162052154541
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.44915708899497986,
+          "means": [
+            0.7157974243164062,
+            0.5440526008605957,
+            0.4731388986110687
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.32347625494003296,
+            0.2400321662425995,
+            0.35896703600883484
+          ]
+        }
+      },
+      "episode": 326,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        69689,
+        69840,
+        69991
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20026,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10558948665857315,
+          "means": [
+            0.6283502578735352,
+            0.6206957697868347,
+            0.610808789730072
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27857309579849243,
+            0.2774255573749542,
+            0.276128888130188
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4437592029571533,
+          "means": [
+            0.7508556246757507,
+            0.5369369387626648,
+            0.46785083413124084
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27787044644355774,
+            0.23708581924438477,
+            0.3553282618522644
+          ]
+        }
+      },
+      "episode": 318,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        67057,
+        67208,
+        67359
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20018,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10553434491157532,
+          "means": [
+            0.6265688538551331,
+            0.620638370513916,
+            0.6100542545318604
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27870941162109375,
+            0.2787100374698639,
+            0.27593547105789185
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.45288991928100586,
+          "means": [
+            0.7545755505561829,
+            0.48779556155204773,
+            0.45552632212638855
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2788601517677307,
+            0.25375896692276,
+            0.3480583429336548
+          ]
+        }
+      },
+      "episode": 358,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        80277,
+        80430,
+        80583
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20058,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1033056378364563,
+          "means": [
+            0.6277594566345215,
+            0.6281840801239014,
+            0.6114009618759155
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2792566120624542,
+            0.2785085141658783,
+            0.27642086148262024
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4482966959476471,
+          "means": [
+            0.7365522980690002,
+            0.5295261144638062,
+            0.4722532331943512
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.3046281337738037,
+            0.24699313938617706,
+            0.3576432764530182
+          ]
+        }
+      },
+      "episode": 310,
+      "event_ok": true,
+      "expected_task": "Pick up the blue can and place it in the green box.",
+      "frame_indices": [
+        64374,
+        64533,
+        64693
+      ],
+      "ok": true,
+      "recovery_type": "object_slip",
+      "scene_seed": 20010,
+      "target_type": "can",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10673730820417404,
+          "means": [
+            0.6279873847961426,
+            0.6241596341133118,
+            0.6120109558105469
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2776263356208801,
+            0.2803870141506195,
+            0.2754250764846802
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.44751203060150146,
+          "means": [
+            0.7778040766716003,
+            0.6643267273902893,
+            0.45283350348472595
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.26105692982673645,
+            0.34083932638168335,
+            0.3481845259666443
+          ]
+        }
+      },
+      "episode": 367,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        83272,
+        83472,
+        83672
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20067,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.106499083340168,
+          "means": [
+            0.6272391080856323,
+            0.6245976090431213,
+            0.6134194731712341
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27906858921051025,
+            0.28065142035484314,
+            0.275943785905838
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4353615343570709,
+          "means": [
+            0.7286298274993896,
+            0.6614425182342529,
+            0.47229257225990295
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2980210781097412,
+            0.33900466561317444,
+            0.3602614998817444
+          ]
+        }
+      },
+      "episode": 343,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        75325,
+        75527,
+        75729
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20043,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10566675662994385,
+          "means": [
+            0.6277241706848145,
+            0.6186559796333313,
+            0.6092694997787476
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27888423204421997,
+            0.27887749671936035,
+            0.27463507652282715
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4360060691833496,
+          "means": [
+            0.7624754309654236,
+            0.6474953293800354,
+            0.45325055718421936
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27547863125801086,
+            0.3392215073108673,
+            0.3487705886363983
+          ]
+        }
+      },
+      "episode": 331,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        71299,
+        71504,
+        71709
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20031,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10259322077035904,
+          "means": [
+            0.6297537088394165,
+            0.6250250935554504,
+            0.6121430397033691
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.28019973635673523,
+            0.28152182698249817,
+            0.27630969882011414
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.44856753945350647,
+          "means": [
+            0.7278924584388733,
+            0.6659255027770996,
+            0.48107337951660156
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.3117048442363739,
+            0.3393489420413971,
+            0.3658773899078369
+          ]
+        }
+      },
+      "episode": 399,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        93662,
+        93862,
+        94063
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20099,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1055438220500946,
+          "means": [
+            0.6290226578712463,
+            0.6163117289543152,
+            0.6096957921981812
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2788339853286743,
+            0.2790578305721283,
+            0.2751930356025696
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4429572820663452,
+          "means": [
+            0.7564401030540466,
+            0.615131676197052,
+            0.4618423879146576
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2815486788749695,
+            0.3454350531101227,
+            0.35410797595977783
+          ]
+        }
+      },
+      "episode": 363,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        81910,
+        82118,
+        82326
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20063,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1059359610080719,
+          "means": [
+            0.6321644186973572,
+            0.6145358085632324,
+            0.6086018681526184
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27881792187690735,
+            0.27879923582077026,
+            0.2747809588909149
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.4561484158039093,
+          "means": [
+            0.7929102778434753,
+            0.5932182669639587,
+            0.45853498578071594
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2710883617401123,
+            0.3515581786632538,
+            0.3521122336387634
+          ]
+        }
+      },
+      "episode": 371,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        84647,
+        84856,
+        85065
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20071,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10412823408842087,
+          "means": [
+            0.6282653212547302,
+            0.6195163130760193,
+            0.6095179915428162
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27900442481040955,
+            0.28057631850242615,
+            0.27600276470184326
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.45064401626586914,
+          "means": [
+            0.7466110587120056,
+            0.6576115489006042,
+            0.4614342153072357
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.30210593342781067,
+            0.33930131793022156,
+            0.3533887565135956
+          ]
+        }
+      },
+      "episode": 391,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        90986,
+        91188,
+        91391
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20091,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10455559939146042,
+          "means": [
+            0.6296595931053162,
+            0.6146745085716248,
+            0.6082636713981628
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2802245020866394,
+            0.27853989601135254,
+            0.27440717816352844
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.44970396161079407,
+          "means": [
+            0.7410977482795715,
+            0.4425658881664276,
+            0.4583466351032257
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.30640536546707153,
+            0.3639886975288391,
+            0.35198909044265747
+          ]
+        }
+      },
+      "episode": 379,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        87121,
+        87334,
+        87547
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20079,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.1047995463013649,
+          "means": [
+            0.6314306855201721,
+            0.6243301033973694,
+            0.6123701930046082
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2793327271938324,
+            0.279586523771286,
+            0.2744835615158081
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.45714911818504333,
+          "means": [
+            0.7475667595863342,
+            0.6517577767372131,
+            0.47457852959632874
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2933877408504486,
+            0.3385208547115326,
+            0.36161375045776367
+          ]
+        }
+      },
+      "episode": 387,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        89662,
+        89866,
+        90070
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20087,
+      "target_type": "box",
+      "task_ok": true
+    },
+    {
+      "cameras": {
+        "observation.images.image": {
+          "first_last_mean_abs_delta": 0.10569899529218674,
+          "means": [
+            0.6292285919189453,
+            0.6245005130767822,
+            0.6138566136360168
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.27870994806289673,
+            0.2799728810787201,
+            0.27539312839508057
+          ]
+        },
+        "observation.images.wrist_image": {
+          "first_last_mean_abs_delta": 0.45323407649993896,
+          "means": [
+            0.7595124244689941,
+            0.6541987061500549,
+            0.4725634753704071
+          ],
+          "ok": true,
+          "shapes": [
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ],
+            [
+              3,
+              256,
+              256
+            ]
+          ],
+          "stds": [
+            0.2820673882961273,
+            0.3384682536125183,
+            0.3604537844657898
+          ]
+        }
+      },
+      "episode": 335,
+      "event_ok": true,
+      "expected_task": "Pick up the yellow box and place it in the green box.",
+      "frame_indices": [
+        72626,
+        72829,
+        73033
+      ],
+      "ok": true,
+      "recovery_type": "place_offset",
+      "scene_seed": 20035,
+      "target_type": "box",
+      "task_ok": true
+    }
+  ],
+  "sampling_seed": 20260910,
+  "target_counts": {
+    "apple": 14,
+    "box": 18,
+    "can": 15,
+    "orange": 13
+  }
+}

@@ -1,0 +1,486 @@
+[
+  {
+    "name": "ep00_apple_normal",
+    "seed": 400,
+    "target_type": "apple",
+    "recovery_type": "none",
+    "success": true,
+    "retry_count": 0,
+    "frames": 196,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep00_apple_normal.mp4",
+    "events": []
+  },
+  {
+    "name": "ep01_orange_normal",
+    "seed": 401,
+    "target_type": "orange",
+    "recovery_type": "none",
+    "success": true,
+    "retry_count": 0,
+    "frames": 206,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep01_orange_normal.mp4",
+    "events": []
+  },
+  {
+    "name": "ep02_can_normal",
+    "seed": 402,
+    "target_type": "can",
+    "recovery_type": "none",
+    "success": true,
+    "retry_count": 0,
+    "frames": 196,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep02_can_normal.mp4",
+    "events": []
+  },
+  {
+    "name": "ep03_box_normal",
+    "seed": 403,
+    "target_type": "box",
+    "recovery_type": "none",
+    "success": true,
+    "retry_count": 0,
+    "frames": 199,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep03_box_normal.mp4",
+    "events": []
+  },
+  {
+    "name": "ep04_apple_approach_offset",
+    "seed": 404,
+    "target_type": "apple",
+    "recovery_type": "approach_offset",
+    "success": true,
+    "retry_count": 1,
+    "frames": 301,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep04_apple_approach_offset.mp4",
+    "events": [
+      {
+        "type": "approach_offset",
+        "frame": 0,
+        "offset": [
+          0.06,
+          0.0
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 105,
+        "offset": [
+          0.0,
+          0.0036
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep05_orange_approach_offset",
+    "seed": 405,
+    "target_type": "orange",
+    "recovery_type": "approach_offset",
+    "success": true,
+    "retry_count": 1,
+    "frames": 222,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep05_orange_approach_offset.mp4",
+    "events": [
+      {
+        "type": "approach_offset",
+        "frame": 0,
+        "offset": [
+          0.06,
+          0.0
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 0,
+        "offset": [
+          0.0,
+          0.0033000000000000004
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep06_can_approach_offset",
+    "seed": 406,
+    "target_type": "can",
+    "recovery_type": "approach_offset",
+    "success": true,
+    "retry_count": 1,
+    "frames": 300,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep06_can_approach_offset.mp4",
+    "events": [
+      {
+        "type": "approach_offset",
+        "frame": 0,
+        "offset": [
+          0.06,
+          0.0
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 103,
+        "offset": [
+          0.0,
+          0.0027
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep07_box_approach_offset",
+    "seed": 407,
+    "target_type": "box",
+    "recovery_type": "approach_offset",
+    "success": true,
+    "retry_count": 1,
+    "frames": 305,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep07_box_approach_offset.mp4",
+    "events": [
+      {
+        "type": "approach_offset",
+        "frame": 0,
+        "offset": [
+          0.06,
+          0.0
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 105,
+        "offset": [
+          0.0,
+          0.0035000000000000005
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep08_apple_weak_grasp",
+    "seed": 408,
+    "target_type": "apple",
+    "recovery_type": "weak_grasp",
+    "success": true,
+    "retry_count": 1,
+    "frames": 309,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep08_apple_weak_grasp.mp4",
+    "events": [
+      {
+        "type": "weak_grasp",
+        "frame": 40,
+        "gripper": 0.84
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 104,
+        "offset": [
+          0.0,
+          0.0036
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep09_orange_weak_grasp",
+    "seed": 409,
+    "target_type": "orange",
+    "recovery_type": "weak_grasp",
+    "success": true,
+    "retry_count": 1,
+    "frames": 301,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep09_orange_weak_grasp.mp4",
+    "events": [
+      {
+        "type": "weak_grasp",
+        "frame": 40,
+        "gripper": 0.84
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 102,
+        "offset": [
+          0.0,
+          0.0033000000000000004
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep10_can_weak_grasp",
+    "seed": 410,
+    "target_type": "can",
+    "recovery_type": "weak_grasp",
+    "success": true,
+    "retry_count": 1,
+    "frames": 303,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep10_can_weak_grasp.mp4",
+    "events": [
+      {
+        "type": "weak_grasp",
+        "frame": 40,
+        "gripper": 0.84
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 103,
+        "offset": [
+          0.0,
+          0.0027
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep11_box_weak_grasp",
+    "seed": 411,
+    "target_type": "box",
+    "recovery_type": "weak_grasp",
+    "success": true,
+    "retry_count": 1,
+    "frames": 301,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep11_box_weak_grasp.mp4",
+    "events": [
+      {
+        "type": "weak_grasp",
+        "frame": 40,
+        "gripper": 0.84
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 102,
+        "offset": [
+          0.0,
+          0.0035000000000000005
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep12_apple_object_slip",
+    "seed": 412,
+    "target_type": "apple",
+    "recovery_type": "object_slip",
+    "success": true,
+    "retry_count": 1,
+    "frames": 319,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep12_apple_object_slip.mp4",
+    "events": [
+      {
+        "type": "object_slip",
+        "frame": 89,
+        "apple_xyz": [
+          0.6211537293754389,
+          0.00927595044462233,
+          0.38799999999999996
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 104,
+        "offset": [
+          0.0,
+          0.0036
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep13_orange_object_slip",
+    "seed": 413,
+    "target_type": "orange",
+    "recovery_type": "object_slip",
+    "success": true,
+    "retry_count": 1,
+    "frames": 298,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep13_orange_object_slip.mp4",
+    "events": [
+      {
+        "type": "object_slip",
+        "frame": 85,
+        "apple_xyz": [
+          0.48727346469374017,
+          0.017635928352105115,
+          0.385
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 100,
+        "offset": [
+          0.0,
+          0.0033000000000000004
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep14_can_object_slip",
+    "seed": 414,
+    "target_type": "can",
+    "recovery_type": "object_slip",
+    "success": true,
+    "retry_count": 1,
+    "frames": 301,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep14_can_object_slip.mp4",
+    "events": [
+      {
+        "type": "object_slip",
+        "frame": 86,
+        "apple_xyz": [
+          0.5516826862148224,
+          0.03156888332151612,
+          0.387
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 101,
+        "offset": [
+          0.0,
+          0.0027
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep15_box_object_slip",
+    "seed": 415,
+    "target_type": "box",
+    "recovery_type": "object_slip",
+    "success": true,
+    "retry_count": 1,
+    "frames": 334,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep15_box_object_slip.mp4",
+    "events": [
+      {
+        "type": "object_slip",
+        "frame": 92,
+        "apple_xyz": [
+          0.6327525642137743,
+          0.06552883153833283,
+          0.379
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 107,
+        "offset": [
+          0.0,
+          0.0035000000000000005
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep16_apple_place_offset",
+    "seed": 416,
+    "target_type": "apple",
+    "recovery_type": "place_offset",
+    "success": true,
+    "retry_count": 1,
+    "frames": 390,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep16_apple_place_offset.mp4",
+    "events": [
+      {
+        "type": "place_offset",
+        "frame": 84,
+        "offset": [
+          0.0,
+          -0.18
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 195,
+        "offset": [
+          0.0,
+          0.0036
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep17_orange_place_offset",
+    "seed": 417,
+    "target_type": "orange",
+    "recovery_type": "place_offset",
+    "success": true,
+    "retry_count": 1,
+    "frames": 419,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep17_orange_place_offset.mp4",
+    "events": [
+      {
+        "type": "place_offset",
+        "frame": 96,
+        "offset": [
+          0.0,
+          -0.18
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 221,
+        "offset": [
+          0.0,
+          0.0033000000000000004
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep18_can_place_offset",
+    "seed": 418,
+    "target_type": "can",
+    "recovery_type": "place_offset",
+    "success": true,
+    "retry_count": 1,
+    "frames": 392,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep18_can_place_offset.mp4",
+    "events": [
+      {
+        "type": "place_offset",
+        "frame": 86,
+        "offset": [
+          0.0,
+          -0.18
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 197,
+        "offset": [
+          0.0,
+          0.0027
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ep19_box_place_offset",
+    "seed": 419,
+    "target_type": "box",
+    "recovery_type": "place_offset",
+    "success": true,
+    "retry_count": 1,
+    "frames": 429,
+    "video": "/home/yuan/projects/pi05-finetune-lab/reports/sample_videos/ep19_box_place_offset.mp4",
+    "events": [
+      {
+        "type": "place_offset",
+        "frame": 99,
+        "offset": [
+          0.0,
+          -0.18
+        ]
+      },
+      {
+        "type": "retry_grasp_offset",
+        "frame": 230,
+        "offset": [
+          0.0,
+          0.0035000000000000005
+        ]
+      }
+    ]
+  }
+]

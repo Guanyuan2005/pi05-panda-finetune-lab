@@ -1,0 +1,271 @@
+{
+  "cross_split_errors": [],
+  "datasets": [
+    {
+      "episodes": 10,
+      "errors": [],
+      "frames": 2006,
+      "image_mean_ranges": {
+        "observation.images.image": [
+          0.604164183139801,
+          0.6305282711982727
+        ],
+        "observation.images.wrist_image": [
+          0.31606438755989075,
+          0.7864472270011902
+        ]
+      },
+      "max_action_jump": 0.10655999183654785,
+      "mean_episode_frames": 200.6,
+      "ok": true,
+      "recovery_counts": {
+        "none": 10
+      },
+      "root": "/home/yuan/projects/pi05-finetune-lab/data/staging/validation/nominal/worker-00",
+      "scene_seeds": [
+        30000,
+        30004,
+        30008,
+        30012,
+        30016,
+        30020,
+        30024,
+        30028,
+        30032,
+        30036
+      ],
+      "warnings": []
+    },
+    {
+      "episodes": 10,
+      "errors": [],
+      "frames": 1978,
+      "image_mean_ranges": {
+        "observation.images.image": [
+          0.6057703495025635,
+          0.6337227821350098
+        ],
+        "observation.images.wrist_image": [
+          0.36555203795433044,
+          0.8188725113868713
+        ]
+      },
+      "max_action_jump": 0.11100000143051147,
+      "mean_episode_frames": 197.8,
+      "ok": true,
+      "recovery_counts": {
+        "none": 10
+      },
+      "root": "/home/yuan/projects/pi05-finetune-lab/data/staging/validation/nominal/worker-01",
+      "scene_seeds": [
+        30001,
+        30005,
+        30009,
+        30013,
+        30017,
+        30021,
+        30025,
+        30029,
+        30033,
+        30037
+      ],
+      "warnings": []
+    },
+    {
+      "episodes": 10,
+      "errors": [],
+      "frames": 2038,
+      "image_mean_ranges": {
+        "observation.images.image": [
+          0.6071074604988098,
+          0.6327157616615295
+        ],
+        "observation.images.wrist_image": [
+          0.32318031787872314,
+          0.7944380640983582
+        ]
+      },
+      "max_action_jump": 0.1154400110244751,
+      "mean_episode_frames": 203.8,
+      "ok": true,
+      "recovery_counts": {
+        "none": 10
+      },
+      "root": "/home/yuan/projects/pi05-finetune-lab/data/staging/validation/nominal/worker-02",
+      "scene_seeds": [
+        30002,
+        30006,
+        30010,
+        30014,
+        30018,
+        30022,
+        30026,
+        30030,
+        30034,
+        30038
+      ],
+      "warnings": []
+    },
+    {
+      "episodes": 10,
+      "errors": [],
+      "frames": 2087,
+      "image_mean_ranges": {
+        "observation.images.image": [
+          0.6065613627433777,
+          0.6350359320640564
+        ],
+        "observation.images.wrist_image": [
+          0.3409064710140228,
+          0.8213858008384705
+        ]
+      },
+      "max_action_jump": 0.11247998476028442,
+      "mean_episode_frames": 208.7,
+      "ok": true,
+      "recovery_counts": {
+        "none": 10
+      },
+      "root": "/home/yuan/projects/pi05-finetune-lab/data/staging/validation/nominal/worker-03",
+      "scene_seeds": [
+        30003,
+        30007,
+        30011,
+        30015,
+        30019,
+        30023,
+        30027,
+        30031,
+        30035,
+        30039
+      ],
+      "warnings": []
+    },
+    {
+      "episodes": 5,
+      "errors": [],
+      "frames": 1562,
+      "image_mean_ranges": {
+        "observation.images.image": [
+          0.6040468811988831,
+          0.6308091282844543
+        ],
+        "observation.images.wrist_image": [
+          0.3309101164340973,
+          0.8073155879974365
+        ]
+      },
+      "max_action_jump": 0.17333334684371948,
+      "mean_episode_frames": 312.4,
+      "ok": true,
+      "recovery_counts": {
+        "approach_offset": 5
+      },
+      "root": "/home/yuan/projects/pi05-finetune-lab/data/staging/validation/recovery/worker-00",
+      "scene_seeds": [
+        40000,
+        40004,
+        40008,
+        40012,
+        40016
+      ],
+      "warnings": []
+    },
+    {
+      "episodes": 5,
+      "errors": [],
+      "frames": 1522,
+      "image_mean_ranges": {
+        "observation.images.image": [
+          0.6043611168861389,
+          0.6312532424926758
+        ],
+        "observation.images.wrist_image": [
+          0.36246928572654724,
+          0.8409016132354736
+        ]
+      },
+      "max_action_jump": 0.11396002769470215,
+      "mean_episode_frames": 304.4,
+      "ok": true,
+      "recovery_counts": {
+        "weak_grasp": 5
+      },
+      "root": "/home/yuan/projects/pi05-finetune-lab/data/staging/validation/recovery/worker-01",
+      "scene_seeds": [
+        40001,
+        40005,
+        40009,
+        40013,
+        40017
+      ],
+      "warnings": []
+    },
+    {
+      "episodes": 5,
+      "errors": [],
+      "frames": 1613,
+      "image_mean_ranges": {
+        "observation.images.image": [
+          0.6029835343360901,
+          0.635805606842041
+        ],
+        "observation.images.wrist_image": [
+          0.3313829004764557,
+          0.8259892463684082
+        ]
+      },
+      "max_action_jump": 0.11840003728866577,
+      "mean_episode_frames": 322.6,
+      "ok": true,
+      "recovery_counts": {
+        "object_slip": 5
+      },
+      "root": "/home/yuan/projects/pi05-finetune-lab/data/staging/validation/recovery/worker-02",
+      "scene_seeds": [
+        40002,
+        40006,
+        40010,
+        40014,
+        40018
+      ],
+      "warnings": []
+    },
+    {
+      "episodes": 5,
+      "errors": [],
+      "frames": 2069,
+      "image_mean_ranges": {
+        "observation.images.image": [
+          0.6064445972442627,
+          0.6347595453262329
+        ],
+        "observation.images.wrist_image": [
+          0.3148907423019409,
+          0.8294966816902161
+        ]
+      },
+      "max_action_jump": 0.1154400110244751,
+      "mean_episode_frames": 413.8,
+      "ok": true,
+      "recovery_counts": {
+        "place_offset": 5
+      },
+      "root": "/home/yuan/projects/pi05-finetune-lab/data/staging/validation/recovery/worker-03",
+      "scene_seeds": [
+        40003,
+        40007,
+        40011,
+        40015,
+        40019
+      ],
+      "warnings": []
+    }
+  ],
+  "ok": true,
+  "test_scenes": {
+    "path": "/home/yuan/projects/pi05-finetune-lab/data/test_scenes.json",
+    "scenes": 100,
+    "unique_seeds": 100
+  }
+}

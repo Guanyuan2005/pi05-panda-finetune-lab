@@ -1,0 +1,24 @@
+openpi/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated datasets and model weights are many gigabytes.
+data/raw/
+data/staging/
+data/lerobot/
+upload/
+checkpoints/
+
+# Raw runs stay off Git; curated summaries live under artifacts/.
+logs/
+results/
+reports/sample_videos/*.mp4
+*.orig
+
+# Local transfer bundles and screenshots.
+*.tar
+*.tar.gz
+QQ_*.png
+粘贴的图像*.png
+

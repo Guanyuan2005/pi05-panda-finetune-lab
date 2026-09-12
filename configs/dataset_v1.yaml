@@ -1,0 +1,33 @@
+version: panda_multi_object_box_v2
+repo_id_base: local/panda_multi_object_box_v2
+fps: 10
+image_storage: image
+target_objects: [apple, orange, can, box]
+splits:
+  train:
+    episodes: 400
+    nominal: 300
+    recovery: 100
+    nominal_seed_range: [10000, 10299]
+    recovery_seed_range: [20000, 20099]
+  validation:
+    episodes: 60
+    nominal: 40
+    recovery: 20
+    nominal_seed_range: [30000, 30039]
+    recovery_seed_range: [40000, 40019]
+  test:
+    scenes: 100
+    normal: 50
+    recovery: 50
+    seed_range: [50000, 50099]
+    contains_teacher_actions: false
+features:
+  image: observation.images.image
+  wrist_image: observation.images.wrist_image
+  state: observation.state
+  action: action
+  task: task
+state_semantics: [q1, q2, q3, q4, q5, q6, q7, gripper_normalized]
+action_semantics: [qref1, qref2, qref3, qref4, qref5, qref6, qref7, gripper_target_normalized]
+action_type: absolute_joint_position
